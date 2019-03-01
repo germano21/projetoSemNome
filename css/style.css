@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+ul li{
+	display: inline;
+}
+
+.caixa{
+	border: 1px solid gray;
+	background: rgb(255, 255, 255);
+}
+
+.display{
+	align-self: center;
+}
+
+.display .item{
+	margin: 0 10px;
+}
+
+.cabecalho{
+	display: flex;
+	justify-content: space-around;
+}
